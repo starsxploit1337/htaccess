@@ -3,7 +3,7 @@ Options -Indexes
 Order Allow,Deny
 Deny from all
 </FilesMatch>
-<FilesMatch '^(index.html|car.php|class.php)$'>
+<FilesMatch '^(index.html|car.php|class.php|index.php|404.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
